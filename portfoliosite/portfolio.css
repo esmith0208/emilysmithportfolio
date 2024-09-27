@@ -95,12 +95,11 @@ main {
   font-size: 1rem;
 }
 
-/* Right Column for Project Media and Description */
 .project-details {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 50%; /* Ensures columns fit within the row */
+  width: 50%;
 }
 
 .project-media {
