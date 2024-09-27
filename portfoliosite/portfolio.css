@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  background-color: black;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  margin-right: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 2px solid white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+nav ul li a.active {
+  background-color: white;
+  color: black;
+}
+
+/* Stack projects vertically */
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.project {
+  width: 95%;
+  margin: 20px auto; /* Add margin between projects */
+}
+
+.project h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px; /* Spacing between columns */
+}
+
+.project-images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 45%;
+}
+
+.image-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.caption {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+/* Right Column for Project Media and Description */
+.project-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%; /* Ensures columns fit within the row */
+}
+
+.project-media {
+  border: 2px solid black;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.project-media a {
+  text-decoration: underline;
+  color: black;
+}
+
+.project-description {
+  padding: 20px;
+  border: 2px solid black;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
