@@ -117,3 +117,237 @@ ul {
   text-decoration: underline;
   color: black;
 }
+/* For iPhones (up to 767px) */
+@media (max-width: 767px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+
+  nav ul {
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li a {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .education-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 20px;
+  }
+
+  .education-column {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .education-section {
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 600px; /* Set a max width */
+    margin-left: auto;
+    margin-right: auto; /* Center the boxes on the page */
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  ul {
+    font-size: 0.75rem;
+    margin-left: 15px;
+  }
+
+  .image-container {
+    margin-bottom: 15px;
+  }
+
+  #university-img {
+    width: 100%;
+  }
+}
+
+/* For iPhones (up to 767px) */
+@media (max-width: 767px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+
+  nav ul {
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li a {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .education-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 20px;
+  }
+
+  .education-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* This centers the title with the box */
+  }
+
+  .education-section {
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto; /* Center the boxes on the page */
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: left; /* Keep the title aligned left if desired */
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  ul {
+    font-size: 0.75rem;
+    margin-left: 15px;
+    list-style-type: none;
+  }
+
+  .image-container {
+    margin-bottom: 15px;
+  }
+
+  #university-img {
+    width: 100%;
+  }
+}
+
+/* For iPads (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    padding: 20px 30px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-right: 15px;
+  }
+
+  nav ul {
+    gap: 20px;
+  }
+
+  nav ul li a {
+    padding: 9px 14px;
+    font-size: 1rem;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .education-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 25px;
+  }
+
+  .education-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Ensure the titles move with the box */
+  }
+
+  .education-section {
+    width: 95%;
+    padding: 25px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto; /* Center the boxes on the page */
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: left; /* Keep the title aligned left if desired */
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  ul {
+    font-size: 0.85rem;
+    margin-left: 15px;
+    list-style-type: none; /* Removes bullets */
+  }
+}
